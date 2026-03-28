@@ -14,6 +14,8 @@ Enjoy the game and feel free to customize the style and button behavior!
 
 This project is released under the MIT License. You are free to use, copy, modify, and distribute the source code while keeping the original copyright notice and license terms.
 
+Note: Dis Website is still very laggy and doesn't run that good on most phones and many laptops/PCs. It tries to render 100.000 buttons at the same time. Work in progress.
+
 ## ENGLISH
 
 <strong>How to use:</strong>
