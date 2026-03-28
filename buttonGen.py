@@ -14,4 +14,4 @@ def generate_buttons(amount):
         print(f"Fehler beim Speichern: {e}")
 
 
-generate_buttons(1000000000000)
+generate_buttons(100000)
