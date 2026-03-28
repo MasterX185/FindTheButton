@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #001a21, #0b91f0);
+
+}
+
+button {
+    margin: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border: 3px solid transparent;
+    border-radius: 5000px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100px;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 3px solid rgb(0, 0, 0);
+    transform: perspective(1000px) rotateX(10deg) scale(1.05) rotate(5deg);
+}

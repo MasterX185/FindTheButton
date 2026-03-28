@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gewonnen!</title>
+    <style>
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 10px;
+            box-sizing: border-box;
+            background: linear-gradient(135deg, #001a21, #0b91f0);
+            align-items: center;
+        }
+        
+        .container {
+            text-align: center;
+            padding: 40px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #00ffea, #001a21);
+        }
+        
+        h1 {
+            color: #000000;
+            font-size: 48px;
+            margin: 0 0 20px 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        p {
+            font-size: 20px;
+            color: #333;
+            margin: 10px 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .emoji {
+            font-size: 60px;
+            margin: 20px 0;
+        }
+        
+        button {
+            margin: 5px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            padding: 10px 20px;
+            border: 3px solid transparent;
+            border-radius: 5000px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: Arial, sans-serif;
+        }
+        
+        button:hover {
+            background-color: rgb(255, 255, 255);
+            color: black;
+            border: 3px solid rgb(0, 0, 0);
+            transform: perspective(1000px) rotateX(10deg) scale(1.05) rotate(5deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="emoji">🎉</div>
+        <h1>Du hast gewonnen!</h1>
+        <p>Glückwunsch! Du hast den richtigen Button von 100.000 gefunden!</p>
+        <p>Das war wahre Nadelsticharbeit!</p>
+        <a href="index.html">
+            <button>Nochmal versuchen</button></a>
+    </div>
+</body>
+</html>
