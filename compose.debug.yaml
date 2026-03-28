@@ -1,0 +1,6 @@
+services:
+  findthebutton:
+    image: findthebutton
+    build:
+      context: .
+      dockerfile: ./Dockerfile

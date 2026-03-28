@@ -21,3 +21,17 @@ This project is released under the MIT License. You are free to use, copy, modif
 3. Click the winning button to reveal the success page.
 4. Use `stylesheet.css` to adjust visual styles and `won.html` as the win screen.
 5. For large button generation, update the `buttonGen.py` script and run it with Python.
+
+<strong>Docker Anleitung:</strong>
+
+1. Stelle sicher, dass Docker installiert und der Docker-Dienst gestartet ist.
+2. Öffne eine Konsole im Projektordner `FindTheButton`.
+3. Baue das Docker-Image mit:
+   - `docker compose build`
+4. Starte den Container mit:
+   - `docker compose up -d`
+5. Öffne im Browser `http://localhost:8080` (oder den in `compose.yaml` definierten Port).
+6. Um den Container zu stoppen, verwende:
+   - `docker compose down`
+
+Wenn du Änderungen am Projekt machst, führe `docker compose up -d --build` aus, damit das Image neu gebaut wird.
